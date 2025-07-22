@@ -1,0 +1,53 @@
+name: iotcw06
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.4
+  firebase_database: ^10.5.5
+  cloud_firestore: ^4.17.2
+
+  # UI & Fonts
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  fl_chart: ^0.68.0
+  cupertino_icons: ^1.0.8
+
+  # Networking & API
+  http: ^1.2.1
+  flutter_dotenv: ^5.1.0
+  google_sign_in: ^6.1.0
+  firebase_storage: ^11.7.7
+  image_picker: ^1.1.2
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+lutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/icons/imageic.jpg"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - .env # For the Gemini API Key
+    - lib/icons/ # For the Google icon, if you have one
+    - lib/icons/imageic.jpg

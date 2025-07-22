@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "285208110028",
+    "firebase_url": "https://mymeal-e5941-default-rtdb.firebaseio.com",
+    "project_id": "mymeal-e5941",
+    "storage_bucket": "mymeal-e5941.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285208110028:android:d45ba02460dd7c3b35f369",
+        "android_client_info": {
+          "package_name": "com.example.iotcw06"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnf7ng7gk6dSiiTA86oyI-B-iIPrS9PME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
